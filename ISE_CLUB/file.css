@@ -36,3 +36,74 @@
     
     display: inline-block;
 }
+.txc
+{
+    color: rgb(41, 45, 53);
+    font-style: italic;
+}
+.transp
+{
+ background : white;   
+ border-radius: 5px;
+ box-shadow: 0px 10px 15px white;
+ width: 980px;
+   
+}
+
+.details
+{
+    font-style: italic;
+    color: rgb(41, 45, 53);
+    font: bold;
+    font-size: large;
+}
+
+.event
+{
+
+    font-style: italic;
+}
+
+.box a{
+    
+    color: rgb(91, 46, 114);
+    display: block;
+    text-decoration: none;
+}
+.box li{
+    list-style: none;
+}
+.box  a:hover{
+    background: rgb(221, 205, 205);
+    color: rgb(19, 17, 17);
+
+}
+.box a{
+    text-decoration: none;
+}
+
+.box li ul{
+    display: none;
+}
+
+
+.box  li:hover >ul
+{
+    display: initial;
+}
+
+.box ul li:hover >li
+{
+
+    display: initial;
+}
+
+.btn
+{
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    background-color: green;
+    color: #fff;
+}
